@@ -1,0 +1,113 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-image:url(Images/tim-schmidbauer-ZdXnzVkHyg4-unsplash.jpg);
+}
+#container {
+    background-color:#f5f6f7;
+    max-width:500px;
+    min-width:200px;
+    height:1300px;
+    margin:10rem auto;
+    padding:10px 32px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+.header {
+    background:linear-gradient(90deg,#6f8376, #df9999);
+    margin:16px auto;
+    padding:33px 0;
+    border-top-left-radius:30px;
+    border-top-right-radius: 30px;
+    border-top:3px solid #000;
+    border-bottom: 3px solid rgb(0, 60, 255);
+}
+#title {
+    text-align:center;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana;
+}
+#description {
+    font-family:sans-serif;
+    text-align:center;
+    font-weight:bold;
+    color:rgb(34, 16, 10);
+    margin:10px;
+    line-height:18px;
+    font-size:20px;
+    letter-spacing: 1px;;
+}
+fieldset {
+    border:none;
+    margin:20px;
+}
+#survey-form {
+    border:2px dotted #ad7edc;
+    border-radius:20px;
+    padding:12px 8px;
+}
+#name-label,#email-label,#number-label,#name,#email,#number {
+    display:block;
+}
+#name-label,#email-label,#number-label,legend{
+    font-size:21px;
+    font-weight:bold;
+}
+#name,#email,#number,select {
+    margin:12px;
+    height:27px;
+    width:100%;
+    background-color:#b091c5;
+}
+#male-label,#female-label,#male,#female {
+    margin:10px;
+}
+#male-label,#female-label {
+    display:block;
+    font-size:20px;
+    font-weight:bold;
+}
+#data-label,#okoa-label,#bundle-label,#minutes-label,#txt-lable,#data,#okoa,#bundle
+,#minute,#txt {
+    
+}
+#data-label,#okoa-label,#bundle-label,#minutes-label,#txt-label {
+    display:block;
+    margin:8px;
+    font-size:20px;
+    font-weight:bold;
+}
+#data,#okoa,#bundles
+,#minutes,#txt {
+    margin-right:6px;
+}
+textarea {
+    margin:22px 50px;
+    width:270px;
+    height:170px;
+    background:linear-gradient(rgb(199, 191, 230),#e6e2ea 80%,rgb(221, 168, 185));
+    border-radius:10px;
+    border:none;
+    padding:10px 12px;
+}
+::placeholder {
+    color:rgb(14, 15, 10);
+    font-size:18px;
+    font-style:italic;
+}
+#submit {
+    width:100%;
+    border-radius:20px;
+    padding:5px 15px;
+    font-size:23px;
+    font-weight:bold;
+    font-style: italic;
+    background:linear-gradient( green ,orange 50%,green);
+}
+#submit:active {
+    background:linear-gradient(orange,green 50%,orange);
+}
+
